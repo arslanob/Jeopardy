@@ -1,0 +1,60 @@
+#table thead th {
+  vertical-align: middle;
+}
+
+#table td, .table th {
+  padding:5px;
+  font-size:0.9em;
+  height:10em;
+  overflow:hidden;
+  vertical-align: middle;
+  background-color: #060ce9;
+  color: white;
+  color:white
+}
+
+#table{
+  margin-left:auto;
+  margin-right:auto;
+  height:100%;
+  width:100%;
+  table-layout:fixed;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("jeopardy.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn-styled {
+  background-color: #1568ed;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-styled:hover {
+  background-color: #104497;
+}
+
+@font-face {
+  font-family: "Jeopardy";
+  src: url("gyparody.ttf");
+}
+
+
+#title {
+  text-align:center;
+  font-family: 'Jeopardy';
+  color: aliceblue;
+  font-size:5rem;
+  padding:0.2em;
+}
