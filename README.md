@@ -10,7 +10,7 @@ The iconic American game show Jeopardy! created in this app. The application is 
 - First click on the question mark icon will reveal the clue.
 - Second click will show you the answer!
 
-Click the [here](https://arslanob.github.io/jeopardy/) to play! 
+Click the [here](https://arslanob.github.io/Jeopardy/) to play! 
 
 
 ## Built With
