@@ -1,6 +1,7 @@
 # Jeopardy!
 
 <!-- GETTING STARTED -->
+![App Screenshot](https://github.com/arslanob/Jeopardy/blob/main/Jeopardy%20App%20Screenshot.png)
 
 ## Summary
 
