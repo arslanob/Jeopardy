@@ -19,7 +19,7 @@
 //  ]
 
 let categories = [];
-let BASE_URL= "http://jservice.io/"
+let BASE_URL= "https://jservice.io/"
 
 /** Get NUM_CATEGORIES random category from API.
  *
@@ -61,7 +61,7 @@ async function getCategory(catId) {
     console.debug('getCategory function ran')
 
     for (id of catId){
-    let {data} = await axios.get(`http://jservice.io/api/category?id=${id}`)
+    let {data} = await axios.get(`https://jservice.io/api/category?id=${id}`)
     
     //created clues object for questions and answers.
     let clues = _.sampleSize(data.clues, [n = 5])
